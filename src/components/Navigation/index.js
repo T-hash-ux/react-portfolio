@@ -1,3 +1,8 @@
+// The overall purpose of this code is to define a React component called Navigation that represents the navigation menu of a web page. 
+// The navigation menu typically contains a list of categories or links that allow users to navigate to different sections or pages of the website.
+
+
+
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 

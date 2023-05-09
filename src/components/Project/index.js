@@ -1,3 +1,4 @@
+// The overall purpose of this code is to define a React component called Project that represents a single project item in a portfolio or project showcase.
 import React from 'react';
 import website from '../../images/website.png';
 

@@ -29,6 +29,7 @@ function App() {
                 <Content currentCategory={currentCategory} />
             </main>
             <Footer/>
+            <p></p>
         </div>
     );
 }

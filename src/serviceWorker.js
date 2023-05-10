@@ -26,7 +26,8 @@ export function reqister(config) {
 
                 navigator.serviceWorker.ready.then(() => {
                     console.log(
-                        'This web app is being served cache-first by a service' + 'worker. To learn more, visit https://bit.ly/CRA-PWA'
+                        'This web app is being served cache-first by a service' + 
+                        'worker. To learn more, visit https://bit.ly/CRA-PWA'
 
                     );
                 });
@@ -54,7 +55,8 @@ function registerValidSW(swUrl, config) {
 
 
                         console.log(
-                            'New content is available and will be used when all ' + 'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
+                            'New content is available and will be used when all ' + 
+                            'tabs for this page are closed. See https://bit.ly/CRA-PWA.'
                         );
 
                         if (config && config.onUpdate) {
